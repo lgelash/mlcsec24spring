@@ -23,14 +23,12 @@ area = math.pi * radius ** 2
 print(area)
 
 # Assignment #4: Convert Minutes to Seconds:
-
 minutes = float(input("Enter the number of minutes: "))
 seconds: minutes * 60
 print(minutes, "minutes is equal to", minutes * 60, "seconds.")
 
 
 # Assignment #5: Print IP addresses:
-
 import ipaddress
 
 network_address = "192.168.0.3/24"
